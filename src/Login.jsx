@@ -60,7 +60,7 @@ const Login = () => {
         await fetchUserInfo(access_token);
 
         setMessage("Вы успешно вошли.");
-        navigate("/home");
+        navigate("/shop");
       } else {
         setMessage("Ошибка при попытке войти.");
         clearMessage();
